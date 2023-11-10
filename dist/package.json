@@ -1,0 +1,35 @@
+{
+  "name": "@sheepsbr/whats.providerjs",
+  "version": "$VERSION",
+  "description": "A set of ",
+  "main": "lib/es5/index.js",
+  "module": "lib/es6/index.js",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ninesbr/sheeps.whats.providerjs.git"
+  },
+  "files": [
+    "lib",
+    "CHANGELOG.md",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
+  "keywords": [
+    "javascript",
+    "json storage",
+    "sheeps"
+  ],
+  "author": "devops nines",
+  "license": "MIT",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.7.3",
+    "google-protobuf": "^3.21.2",
+    "class-validator": "^0.14.0"
+  },
+  "bugs": {
+    "url": "https://github.com/ninesbr/sheeps.whats.providerjs/issues"
+  },
+  "homepage": "https://github.com/ninesbr/sheeps.whats.providerjs#readme"
+}
